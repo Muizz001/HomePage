@@ -1,5 +1,3 @@
-// components/BirthdayDecorCard.tsx
-import Image from "next/image";
 import Link from "next/link";
 
 export default function BirthdayDecorCard({ title, id }) {
@@ -7,7 +5,7 @@ export default function BirthdayDecorCard({ title, id }) {
     <div className="max-w-[362px] bg-white rounded-[10px] shadow-lg overflow-hidden border border-gray-200 h-max">
       <div className="relative">
         <img
-          src="https://picsum.photos/400/300" // Make sure this image is in your public folder
+          src="https://picsum.photos/400/300" 
           alt="Birthday Decor"
           width={362}
           height={338}
@@ -29,14 +27,14 @@ export default function BirthdayDecorCard({ title, id }) {
       <div className="p-4 h-52">
         <div className="flex justify-between items-center">
           <h3 className="text-lg font-semibold text-gray-800">
-            {title.slice(0,10) + "..."}
+            {title.slice(0, 10) + "..."}
           </h3>
         </div>
 
         <div className="mt-2 flex items-center gap-2">
           <img
-            src="https://picsum.photos/24/24"
             alt="Suresh Sitharaman"
+            src="https://picsum.photos/24/24"
             width={24}
             height={24}
             className="rounded-full"

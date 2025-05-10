@@ -12,22 +12,19 @@ const Hero = () => {
     <div>
       <div className="hero relative min-h-[551px] bg-[#FFF2F5] px-5 md:px-[146px] pt-10 md:pt-20 flex flex-col items-start">
         <div className="w-full md:w-[850px] flex flex-col gap-4">
-          {/* Heading */}
           <h1 className="text-3xl md:text-5xl font-extralight leading-snug md:leading-[100%]">
             We set up your space to
             <br />
             celebrate your{" "}
             <strong className="font-semibold">Birthday Party</strong>
           </h1>
-
-          {/* Features */}
           <div className="mt-6 flex flex-row gap-3 sm:gap-6">
             <div className="flex items-center gap-2">
               <Image src={browse} alt="Browse" className="sm:w-6 w-3" />
               <p className="text-[12px] md:text-base">Browse Gallery</p>
             </div>
             <div className="flex items-center gap-2">
-              <Image src={find} alt="Find"  className="sm:w-6 w-3"/>
+              <Image src={find} alt="Find" className="sm:w-6 w-3" />
               <p className="text-[12px] md:text-base">Find Inspiration</p>
             </div>
             <div className="flex items-center gap-2">
@@ -36,7 +33,6 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Search Inputs */}
           <div className="mt-6 flex flex-col sm:flex-row gap-3">
             <div className="flex items-center gap-2 px-4 py-3 bg-white rounded-[7px] w-full sm:w-[284px]">
               <input
@@ -56,17 +52,15 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* CTA Button */}
           <button className="py-2 px-5 bg-[#DE3163] text-white mt-5 rounded-[7px] w-max text-sm">
             Search Professionals
           </button>
         </div>
 
-        {/* Banner Image */}
         <Image
           src={banner}
           alt="Banner"
-          className="absolute w-[90%] left-[5%] bottom-[-10%] sm:bottom-[-12.5%]"
+          className="absolute w-[90%] left-[5%] bottom-[-2.5%] lg:bottom-[-12.5%]"
         />
       </div>
     </div>
